@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    
+    <div class="background-img">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">呪術廻戦</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Expand Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Home</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link active" aria-current="page">About</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a href="anime.html" class="nav-link active" aria-current="page">Manga</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar-text">
+                        <a href="anime.html" class="btn btn-primary contact-btn-round">Read Manga</a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="container main-container">
+            <h1 class="main-title">Jujutsu Kaisen</h1>
+            <div class="main-btn-container">
+                <a href="#about" class="button-49" role="button">Learn More</a>
+                <a href="anime.html" class="button-49" role="button">Read Manga</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="container about-container" id="about">
+
+        <div class="row">
+
+            <div class="col-6 about-img-container">
+                <img src="./assets/imgs/about.gif" alt="">
+            </div>
+    
+            <div class="col-6 about-info-container">
+                <h1 class="about-title">Jujutsu Kaisen <a href="#anime">></a></h1>
+
+                <h2>IMDB: 8.6 / 10</h2>
+
+                <p>Jujutsu Kaisen (呪じゅ術じゅつ廻かい戦せん Jujutsu Kaisen?) is a manga written and illustrated by Gege Akutami and is published in Weekly Shonen Jump. The first chapter was published on March 5, 2018, in issue 14 of Weekly Shonen Jump.</p>
+                <p style="margin-top: 0px;">The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host.</p>
+
+                <div class="about-btn-container">
+                    <a href="#characters" class="button-49 btn-about" role="button" style="margin-top: 20px;">Characters</a>
+                    <a href="anime.html" class="button-49 btn-about" role="button" style="margin-top: 20px;">Read</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>  
+
+    <hr width="80%" style="margin: 50px auto;">
+
+    <section class="container characters-container" id="characters">
+        <div style="height: 10%;" class="row">
+            <h1 class="characters-title">Some Characters Jujutsu Kaisen</h1>
+        </div>
+        <div class="row ch-card-container">
+
+        </div>
+    </section>
+
+    <footer id="blah-blah-blah">
+        <div class="footer-container">
+            <h1 style="margin-right: 120px;">"Through out heavens and earth,</h1>
+            <h1 style="margin-left: 200px; margin-top: 20px;">I alone am the hornered one"</h1>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
